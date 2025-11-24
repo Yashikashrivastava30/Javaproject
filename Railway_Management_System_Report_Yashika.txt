@@ -1,0 +1,184 @@
+PROJECT REPORT – RAILWAY MANAGEMENT SYSTEM
+
+1. C
+
+Project Title: Railway Management System
+Student Name: Yashika Shrivastav 
+Registration Number: 24BCE11439 
+Course: Programming in Java
+(CSE2006) Faculty: Dr. Sanat Jain Institution: Vellore Institute of
+Technology Bhopal University 
+Submission Date: 24-11-2025
+
+2. INTRODUCTION
+
+The Railway Management System (RMS) is a Java-based project developed as
+a part of the “Build Your Own Project” initiative under the Programming
+in Java course. The project demonstrates the application of
+Object-Oriented Programming concepts, modular system design, and
+structured workflow implementation. The system focuses on digitizing
+essential railway operations such as train management, passenger
+handling, ticket booking, and reservation status tracking. The RMS aims
+to provide a simplified, console-driven model of real-world railway
+systems while illustrating key technical concepts taught in the course.
+
+3. PROBLEM STATEMENT
+
+Railway systems involve handling large amounts of information including
+train schedules, passenger details, booking data, and seat availability.
+Managing these processes manually is time-consuming and prone to human
+error. The project aims to provide a structured digital solution that
+automates these tasks. The system simplifies searching, booking,
+updating, and maintaining railway data while ensuring accuracy,
+efficiency, and ease of use.
+
+4. FUNCTIONAL REQUIREMENTS
+
+The Railway Management System includes the following major functional
+modules:
+
+1.  Train Management
+    -   Add, update, view, and delete train records.
+    -   Manage details such as train number, name, source, destination,
+        and available seats.
+2.  Passenger & Reservation Management
+    -   Add passenger details.
+    -   Book tickets with seat validation.
+    -   Cancel reservations and update seat count automatically.
+3.  Search & Availability
+    -   Search trains by number or route.
+    -   Check seat availability.
+    -   Display complete train lists and passenger summaries.
+
+Each module ensures a clear input/output structure and maintains a
+logical flow for user interaction.
+
+5. NON-FUNCTIONAL REQUIREMENTS
+
+The system adheres to several key non-functional requirements:
+
+• Performance – All operations execute quickly and efficiently.
+• Usability – Simple menu-driven interface ensures smooth user
+interaction.
+• Reliability – Booking and cancellation consistently update related
+train and passenger data.
+• Maintainability – Code is modular, well-structured, and easy to update
+or extend.
+• Error Handling – Handles invalid inputs, unavailable trains, and
+incorrect passenger details gracefully.
+• Scalability – New modules (e.g., payment, advanced search) can be
+added without major rework.
+
+6. SYSTEM ARCHITECTURE
+
+The system architecture is designed around three key layers:
+
+1.  User Interaction Layer – Command-line interface through which users
+    perform operations.
+2.  Application Logic Layer – Java classes and methods implementing
+    functional requirements.
+3.  Data Handling Layer – File-based or in-memory structures used to
+    store train and passenger data.
+
+The architecture emphasizes modularity, clear separation of concerns,
+and reusable components.
+
+7. DESIGN DIAGRAMS (DESCRIPTION)
+
+• Use Case Diagram – Shows interactions between the user and major
+system functions such as train management and booking.
+• Workflow Diagram – Illustrates the sequence of menu selections and
+operations.
+• Sequence Diagram – Represents step-by-step execution flow for booking
+or cancellation.
+• Class Diagram – Displays classes like Train, Passenger, Reservation,
+and their relationships.
+• ER Diagram (if using storage) – Represents data entities and
+attributes for trains and passengers.
+
+8. DESIGN DECISIONS & RATIONALE
+
+• Java was chosen due to its strong OOP support and modular structure.
+• A console-based UI ensures simplicity and focus on core logic.
+• Collections (ArrayList) allow flexible storage and fast searching.
+• File handling (if added) enables data persistence across sessions.
+• Input validation prevents incorrect entries and enhances user
+experience.
+• Modular class design allows future expansion, such as online payment
+or seat preference logic.
+
+9. IMPLEMENTATION DETAILS
+
+The implementation includes: • 5–10 Java classes/modules such as Train,
+Passenger, RailwaySystem, ReservationManager, and Main.
+• Proper folder structure separating data classes, service classes, and
+utility modules.
+• Meaningful comments and documentation explaining logic flow.
+• Validation for inputs such as train number, seat count, and route
+matching.
+• Clean exception handling to avoid crashes during runtime.
+• Git is used for version tracking and managing project updates.
+
+10. SCREENSHOTS / RESULTS
+
+Screenshots typically include: • Home menu screen
+• Adding a new train
+• Displaying trains
+• Booking a ticket
+• Viewing passenger list
+• Cancellation confirmation
+• Error messages for invalid inputs
+
+(These will be added after running the program.)
+
+11. TESTING APPROACH
+
+The system was tested using the following approaches:
+
+• Unit Testing – Each module (train addition, search, booking) was
+tested individually.
+• Input Validation Testing – Checked system behavior for invalid,
+missing, or incorrect fields.
+• Boundary Testing – Verified seat limits, edge cases, and repeated
+booking/cancellation.
+• Functional Testing – Ensured each menu option executed the correct
+workflow.
+• Manual Scenario Testing – Realistic booking scenarios were executed to
+ensure consistency.
+
+12. CHALLENGES FACED
+
+• Designing a modular structure for multiple interconnected modules.
+• Ensuring correct seat updates during both booking and cancellation.
+• Handling invalid input gracefully without breaking program flow.
+• Maintaining clarity in workflow and user prompts.
+• Creating diagrams and aligning them with the architecture.
+
+13. LEARNINGS & KEY TAKEAWAYS
+
+• Improved understanding of Java OOP concepts and modular design.
+• Learned how to structure console-based applications.
+• Gained experience in designing workflows and data models.
+• Strengthened knowledge of validation, error handling, and collection
+usage.
+• Understood importance of documentation and version control (Git).
+• Developed confidence in developing real-world inspired systems.
+
+14. FUTURE ENHANCEMENTS
+
+Potential improvements include:
+
+• Migration from console to GUI using JavaFX or Swing.
+• Database integration using MySQL for persistent storage.
+• Online payment simulation and fare calculation module.
+• SMS/email confirmation for bookings (simulation).
+• Advanced search filters like timings or train type.
+• Admin panel with authentication.
+
+15. REFERENCES
+
+• Java Documentation – Oracle
+• Course Materials – Programming in Java CSE2006
+• Online Tutorials (GeeksforGeeks, W3Schools)
+• UML & Diagram Tools Documentation
+• Standard Railway Management Workflows (for conceptual understanding)
